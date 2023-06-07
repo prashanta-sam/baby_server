@@ -1,0 +1,10 @@
+{
+    "signup" :{
+        "email": "required|string|email",
+        "username": "required|string",        
+        "password": "required|string|min:6|confirmed"      
+    },
+    "signin":{
+
+    }
+}
